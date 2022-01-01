@@ -1,5 +1,5 @@
 -- 删除统计外日期
-delete from log where datetime < '2020-01-01';
+delete from log where datetime < '2021-01-01';
 
 -- 验证日期是否删除正确
 select min(datetime) from log;
